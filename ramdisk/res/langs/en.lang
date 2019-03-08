@@ -1,0 +1,230 @@
+﻿### LICENSE:
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Next >
+text_back=< Back
+text_yes=OK
+text_no=Cancel
+text_about=About
+text_calibrating=Calibrating Tools
+text_quit=Quit
+text_quit_msg=Are you sure to quit?
+text_done=Done
+global_done=Done
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+lang.name=选择语言/Select Language
+lang.title_name=请选择语言/Select Language
+lang.desc=lang selected
+default_name=default_name
+default_title=default_title
+default_desc=Your phone will reboot.
+
+mainmenu.name= ColorOS RECOVERY
+mainmenu.title_name=MAIN MENU
+mainmenu.install.name=install from SD
+mainmenu.tools.name=tools
+
+back.name=Back
+back.title_name=Back to parent menu
+
+sd.back.name=Back
+sd.back.desc=back to upper
+
+sd.name=Install from storage device
+sd.title_name=Install from storage device
+sd.desc=Install from storage device
+batt.name=BATTARY
+time.name=TIME
+
+sd.install.name=choose zip from sd
+sd.update.name=apply /sdcard/update.zip
+sd.internal.name=From phone storage
+sd.external.name=From SD card
+sd.install.confirm.name=Update
+sd.install.confirm.desc=Installation package, this operation can not be undone.
+sd.install.success.name=Prompt
+sd.install.failed.name=Installation failed
+sd.install.failed.keylog=41:OTA升级失败:1
+sd.install.notice=Prompt
+sd.install.success.desc=Installation successful.
+sd.install.stress.success=OTA stress test success
+sd.install.stress.fail=OTA stress test fail
+sd.install.failed.desc=Installation failed.
+sd.install.downgrade.failed=The installed version is lower than current.
+sd.install.caplow.desc=Capacity is less than 20%, please charge the battery to 20%.
+install.package.name=Updating, please wait
+install.package.desc=No operation
+install.package.attention=Please don't do any other operations!
+install.package.knowmore=Visit WWW.OPPO.COM to learn more
+install.package.line=/
+install.package.stage=stage:Estimated time remaining in this stage is
+install.package.remaingtimesingle=Estimated time remaining is 
+install.package.minute=minutes
+install.package.minutesin=minute
+sd.install.success.leftbutton=Reboot
+
+ums.name=Usb mass storage mode
+ums.btn.name=Exit the UMS mode
+ums.notice.name=UMS mode
+ums.notice.desc=UMS mode is enabled
+
+power.name=power
+power.title=power operation
+reboot.null= Reboot
+reboot.null.title= reboot now
+reboot.recovery= reboot to recovery
+reboot.bootloader= reboot to bootloader
+reboot.poweroff= Power off
+poweroff.desc=Your phone will power off.
+
+alert.result=FAIL!
+alert.desc=operation failed
+
+mount.name=mount
+mount.title=mount and toggle usb storage
+mount.cache.name=mount cache
+mount.data.name=mount data
+mount.system.name=mount system
+mount.sdcard.name=mount sdcard
+mount.toggle.name=toggle usb storage
+
+wipe.name=Wipe data
+wipe.title=wipe data or format partition operation
+wipe.cache.name=Wipe cache
+wipe.cache.desc=Your cache will be wiped, this operation can not be restored.
+wipe.content.name=Clear all content and settings
+wipe.factory.name=Wipe all data and removable application
+wipe.factory.desc=Your data and application will be wiped, this operation can not be restored.
+wipe.data.name=Wipe data
+wipe.data.desc=Your data will be wiped, this operation can not be restored.
+#add for new wipe items
+wipe.appdata.name=Wipe all application data
+wipe.appdata.desc=All of Your application data will be reset, this operation can not be restored.
+wipe.result.appdata.ok=Wipe all application data success.
+wipe.result.appdata.failed=Wipe application data failed.
+wipe.reserve.name=Wipe data(Keep SMS, Contacts and Photos)
+wipe.reserve.desc=All of Your application data will be reset (except SMS, Contacts, Photos and Lockscreen psssword), this operation can not be restored.
+wipe.result.reserve.ok=Wipe all application data success.
+wipe.result.reserve.failed=Wipe all application data failed.
+
+wipe.progress.namd=Wiping,please wait
+wipe.progress.desc=Please don't do any other operations
+wipe.result.title=Prompt
+wipe.result.success.title=Wiped successfully
+wipe.result.failed.title=Wipe failed
+wipe.result.factory.ok=Data and cache wiped successfully.
+wipe.result.factory.failed=Failed to wipe data and cache.
+wipe.result.data.ok=Data wiped successfully.
+wipe.result.data.failed=Failed to wipe data.
+wipe.result.cache.ok=Cache wiped successfully.
+wipe.result.cache.failed=Failed to wipe cache.
+format.system.name=Format system
+format.data.name=Format data
+format.data.desc=Formatting the data partition will erase all user information
+format.result.data.ok=Formatting the data partition success
+format.result.data.failed=Formatting the data partition failed
+format.cache.name=Format cache
+format.boot.name=Format boot
+format.sdcard.name=Format SD card
+format.all.name=Format all(except SD card and boot)
+
+
+resize.notice.all=Installation failed of All update package
+
+backup.name=backup and restore
+backup.title=backup to sdcard and restore from sdcard
+backup.backup.name=backup
+backup.restore.name=restore
+advanced_backup.name=advanced backup
+advanced_backup.cache.name=backup cache
+advanced_backup.data.name=backup data
+advanced_backup.system.name=backup system
+advanced_backup.boot.name=backup boot
+advanced_backup.recovery.name=backup recovery
+advanced_restore.name=advanced restore
+advanced_restore.cache.name=restore cache
+advanced_restore.data.name=restore data
+advanced_restore.system.name=restore system
+advanced_restore.boot.name=restore boot
+advanced_restore.recovery.name=restore recovery
+
+tool.name=tool
+tool.title=advanced tools
+tool.key.name=key test
+tool.time.name=timer setting
+tool.battary.name=wip battary
+tool.log.name=cope log to sdcard
+tool.log.desc=are you sure cope log to 
+tool.permission.name=fix permission
+
+root.execute.name=Get root permission
+root.cancel.name=Cancel root permission
+root.description=Confirm the operation？
+
+info.name.rooted=Ver 1.2(Rooted)
+info.name=Ver 1.2
+rootdetect.rooted.desc=Mobile phone has been rooted
+rootdetect.noroot.desc=Mobile phone is not rooted
+root.detect.title=check the version whether or not rooted
+info.title=information of oppo recovery
+info.mount.name=storage info
+info.log.name=log
+info.about.name=about oppo recovery
+
+info.name.sys_verification=Check disk
+info.name.sys_verification.pass=Disk data is intact
+info.name.sys_verification.fail=Find some disk data exceptions
+info.name.sys_verification.waiting=Checking the exceptions of disk data, please wait...
+about.device=Device:
+about.name=Name:
+about.version=Version:
+about.date=Date:
+
+#
+#-- UNLOCK STRING RESOURCE
+#
+input.password=Please enter lockscreen password
+input.drawpattern=Please draw lockscreen pattern
+input.password.install=Please enter lockscreen password to update
+input.password.wipe=Please enter lockscreen password to wipe data
+input.password.wrong=Wrong password
+keyboard.symbol=SYM
+
+#ifdef COLOROS_EDIT
+#Zhengkang.Ji@Plf.Framework, 2017.12.31 add for system repair
+repair.name=Online update(keep data)
+repair.title=Online update
+searchap.name=Search WiFi
+info.searchap.waiting=Searching WiFi, please wait …
+info.search.noap=Can not find the available network!
+query.name=Download and repair the system (recommended to connect the charger)
+query.name.title=Download and repair the system
+query.noap=找不到可用网络
+info.notice=WiFi need web authentication may not be able to connect.
+connectap.name=Connect WiFi
+info.connectap.waiting=Connecting WiFi, please wait …
+info.connect.success=Succeed in connecting WiFi
+info.connect.fail=Failed to connect WiFi
+info.query.waiting=Searching, please wait …
+info.query.pass=Downloadable version detected.
+info.query.cancel=start download
+info.query.start=Cancel
+info.query.fail=No downloadable version detected.
+info.query.net.fail=The network connection is abnormal.
+input.appassword=Please enter WiFi password
+input.ap.password.wrong=Wrong password or abnormal network, Please try again
+info.download.resume=Continue to download
+info.download.fail=Download failed
+info.download.disconnect=The WiFi connection is down.
+info.download.stop=Download has been suspended
+download.package.name=Downloading
+download.package.attention=Please don't do any other operations!
+button.download.stop=Pause download and return
+sd.install.caplow.desc1=Battery less than 20%, please connect the charger.
+sd.install.caplow.desc2=Capacity is less than 50%, please charge the battery to 50%.
+sd.download.noenough.space=Insufficient space left.
+#endif /* COLOROS_EDIT */

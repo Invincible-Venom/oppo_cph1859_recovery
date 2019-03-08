@@ -1,0 +1,42 @@
+img.titlebg=titlebg.9
+img.progress=progress_bg.9
+img.progress.fill=progress_fg.9
+img.insprogress=install_progress_bg.9
+img.insprogress.fill=install_progress_fg.9
+img.list_bg=list_bg.9
+img.list_bg.select=list_bg.select.9
+img.list_line=list_line.9
+img.button.focus=button_focus.9
+img.button=button.9
+stop.button.focus=button_press.9
+stop.button=button_normal.9
+
+color.winbg           =        #f2f2f2
+color.installbg       =        #000000
+color.selectbg         =       #ebebeb
+color.installtxt       =        #595959
+color.txt_title           = #4e4f4c
+color.txt_menu      =       #585858
+color.txt_select        =   #0b984c
+color.txt_version      =        #a1a6a4
+color.txt_pic_tit    = #4e4f4c
+color.txt_pic_desc     = #c0c0c0
+color.menuline_top          = #bac2c2
+color.menuline_bot     =   #ffffff
+color.title_line       =       #0b984c
+color.border       =           #000000
+color.statusbg       =         #111111
+color.txt_status       =    #ffffff
+color.horselight_morebright = #FAFAFA
+color.horselight_bright =     #BEBEBE
+color.horselight_moredark =   #808080
+color.horselight_dark =       #404040
+
+config.roundsize             = 2
+config.button_roundsize      = 1
+config.window_roundsize      = 1
+config.transition_frame      = 5
+
+font.small                   = font.roboto.small
+font.big                     = font.roboto.big
+
